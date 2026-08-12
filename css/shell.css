@@ -1,0 +1,464 @@
+/*
+  Güinect Shell CSS
+  Extracted from uigov.webflow.css for shell-structure.html.
+
+  Keep normalize.css and webflow.css linked before this file because
+  shell-structure.html still uses Webflow utility classes such as .w-inline-block.
+*/
+
+:root {
+  --dark-orange: #f58635;
+  --dark-slate-blue: #3d5070;
+  --alice-blue: #eaf2ff;
+  --white: #fff;
+  --light-steel-blue: #b0bfe6;
+  --gainsboro: #e5e9f3;
+  --dark-slate-blue-2: #3d5070;
+  --button-border: #d1d3e5;
+  --black-2: #1e2233;
+  --letters: #6f8b97;
+  --dark-blue: #1e2233;
+  --yellow: #ecc92c;
+  --black: black;
+  --light-grey: #cccccf;
+}
+
+.main-content {
+  border: 1px #ddd;
+  flex-flow: column;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: stretch;
+  height: 100%;
+  display: flex;
+  overflow: auto;
+}
+
+.main-content.estadisticas {
+  flex-flow: column;
+}
+
+.image-194 {
+  cursor: pointer;
+  max-width: 30px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.mid-mid-wrapper {
+  background-color: #0000;
+  flex-flow: column;
+  flex: 1;
+  align-items: stretch;
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+  margin-left: 0;
+  padding: 0 10px;
+  display: flex;
+  position: relative;
+}
+
+.profile-block {
+  flex-flow: row;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  min-width: auto;
+  max-width: 850px;
+  height: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+}
+
+.standard_black_text {
+  color: #1e2233;
+  text-align: center;
+  background-color: #0000;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  padding-left: 0;
+  font-family: Lato, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+}
+
+.standard_black_text.m {
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-weight: 400;
+}
+
+.standard_black_text.left {
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+.mid-wrapper-content {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  aspect-ratio: auto;
+  text-align: center;
+  background-color: #ffffff82;
+  flex-flow: column;
+  flex: 1;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 83px;
+  display: flex;
+  position: relative;
+  overflow: visible;
+}
+
+.interaction-box {
+  border: 1px solid var(--gainsboro);
+  width: 80%;
+  min-width: auto;
+  max-width: 850px;
+  color: var(--dark-slate-blue);
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  flex-flow: column;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-self: auto;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 15px;
+  font-family: Lato, sans-serif;
+  display: flex;
+}
+
+.body-background-transparency {
+  background-image: linear-gradient(#f6faffc2, #f6faffc2), url("../images/uipattern_1uipattern.jpg");
+  background-position: 0 0, 0 0;
+  background-size: auto, 4px;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: Lato, sans-serif;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-wrapp {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  flex-flow: row;
+  flex: 1;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  min-height: 0;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.right-space {
+  background-color: #fff;
+  border: 2px #000;
+  flex-direction: column;
+  flex: 0 auto;
+  align-items: center;
+  width: 20%;
+  min-width: 150px;
+  max-width: 200px;
+  height: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  display: block;
+}
+
+.link-block-25 {
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 50px;
+  display: flex;
+}
+
+.left_menu_icon {
+  border-radius: 20px;
+  margin-left: 18px;
+  margin-right: 18px;
+  line-height: 0;
+}
+
+.middle-menu {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+
+.main-nav-menu-ui {
+  background-image: linear-gradient(#1e2233, #1e2233);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  min-height: 60px;
+  margin-bottom: 0;
+  display: flex;
+  position: relative;
+}
+
+.mid-wrapper-title {
+  background-color: var(--alice-blue);
+  flex-flow: row;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  position: relative;
+}
+
+.div-block-1218 {
+  border: 2px solid var(--light-steel-blue);
+  background-color: #ffffff29;
+  border-radius: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 270px;
+  height: 40px;
+  display: flex;
+}
+
+.left-menu {
+  background-image: linear-gradient(#fff, #fff);
+  flex-flow: column;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  min-width: 320px;
+  max-width: 320px;
+  height: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  display: block;
+}
+
+.right-nav-side {
+  grid-column-gap: 13px;
+  grid-row-gap: 13px;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  min-width: 150px;
+  max-width: 200px;
+  height: 100%;
+  padding: 0;
+  display: flex;
+}
+
+.main_menu_link {
+  color: #fff;
+  text-align: center;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  font-size: 11px;
+  text-decoration: none;
+  display: flex;
+}
+
+.main_menu_link:hover {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 80px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.image-378 {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.image-379 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.image-391 {
+  width: 35px;
+}
+
+.left-nav-side {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 320px;
+  height: 100%;
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  .mid-mid-wrapper {
+    height: 100%;
+    padding-right: 0;
+  }
+
+  .mid-wrapper-content {
+    overflow: visible;
+  }
+
+  .interaction-box {
+    width: 90%;
+    min-width: auto;
+  }
+
+  .main-wrapp {
+    overflow: auto;
+  }
+
+  .right-space {
+    display: none;
+  }
+
+  .div-block-1218 {
+    width: 270px;
+  }
+
+  .left-nav-side {
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main-content {
+    flex-flow: column;
+    display: flex;
+    overflow: visible;
+  }
+
+  .mid-mid-wrapper {
+    margin-left: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .body-background-transparency {
+    height: auto;
+  }
+
+  .main-wrapp {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100vw;
+  }
+
+  .middle-menu {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+  }
+
+  .main-nav-menu-ui {
+    flex-flow: column;
+    height: auto;
+  }
+
+  .left-menu, .right-nav-side {
+    display: none;
+  }
+
+  .left-nav-side {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .main-content {
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 100%;
+    overflow: auto;
+  }
+
+  .mid-mid-wrapper {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .mid-wrapper-content {
+    min-width: 380px;
+    max-width: 100%;
+  }
+
+  .interaction-box {
+    width: 100%;
+    min-width: 380px;
+    max-width: 100%;
+  }
+
+  .body-background-transparency {
+    overflow: auto;
+  }
+
+  .main-wrapp {
+    flex-flow: column;
+  }
+
+  .right-space {
+    height: auto;
+  }
+
+  .main-nav-menu-ui {
+    flex-flow: column;
+  }
+
+  .mid-wrapper-title {
+    min-width: 380px;
+    max-width: 100%;
+  }
+}
