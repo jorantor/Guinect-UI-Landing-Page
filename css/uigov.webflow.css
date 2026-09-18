@@ -8034,7 +8034,7 @@ a {
   color: #f58635;
   background-color: #fff;
   font-size: 13px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .nav-button.register {
@@ -10292,7 +10292,7 @@ a {
 
 .footer-link:hover {
   color: var(--white);
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .footer-social-block {
