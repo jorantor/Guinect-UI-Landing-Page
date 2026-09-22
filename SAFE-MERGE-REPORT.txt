@@ -1,0 +1,170 @@
+GUINECT SAFE MERGE REPORT — 2026-09-21
+
+MERGE RULE: New Webflow export is authoritative for every file it contains. GitHub contributes only files/dirs absent from Webflow. No Webflow file was overwritten by GitHub.
+
+Webflow files checked: 1058
+Webflow files changed during merge: 0
+Webflow files missing after merge: 0
+GitHub-only files preserved: 1034
+Broken local references in Webflow-origin root HTML pages: 617
+
+Key GitHub technical items preserved:
+  CNAME: YES
+  .gitattributes: YES
+  js/custom.js: YES
+  css/left-menu.css: YES
+  css/shell.css: YES
+  public-2026: YES
+
+Important: Public landing-page HTML/CSS/JS files that exist in the Webflow export remain byte-for-byte identical to the Webflow ZIP. No text, class, layout, breakpoint, spacing, or responsive rule was edited in those files.
+
+English Webflow navigation remains exactly as exported. In the Webflow source, Request a Demo currently links to #; this merge intentionally does not invent or modify an English demo page.
+
+BROKEN LOCAL REFS:
+landing-precandidato.html -> images/Educación-política-sassa.png
+mvp-x-ray.html -> images/Menu-Icon_1Menu-Icon.png
+mvp-x-ray.html -> images/Friends-Icon_1Friends-Icon.png
+mvp-x-ray.html -> images/estatus-w_1estatus-w.png
+mvp-x-ray.html -> images/orange-darrow_1orange-darrow.png
+mvp-x-ray.html -> images/DB-like_1DB-like.png
+mvp-x-ray.html -> images/DB-unlike_1DB-unlike.png
+mvp-x-ray.html -> images/orange-darrow_1orange-darrow.png
+mvp-x-ray.html -> images/DB-like_1DB-like.png
+mvp-x-ray.html -> images/DB-unlike_1DB-unlike.png
+mvp-x-ray.html -> images/orange-darrow_1orange-darrow.png
+mvp-x-ray.html -> images/DB-like_1DB-like.png
+mvp-x-ray.html -> images/DB-unlike_1DB-unlike.png
+mvp-x-ray.html -> images/orange-darrow_1orange-darrow.png
+mvp-x-ray.html -> images/DB-like_1DB-like.png
+mvp-x-ray.html -> images/DB-unlike_1DB-unlike.png
+mvp-x-ray.html -> images/orange-darrow_1orange-darrow.png
+mvp-x-ray.html -> images/DB-like_1DB-like.png
+mvp-x-ray.html -> images/DB-unlike_1DB-unlike.png
+mvp-x-ray.html -> images/orange-darrow_1orange-darrow.png
+mvp-x-ray.html -> images/DB-like_1DB-like.png
+mvp-x-ray.html -> images/DB-unlike_1DB-unlike.png
+mvp-x-ray.html -> images/orange-darrow_1orange-darrow.png
+mvp-x-ray.html -> images/DB-like_1DB-like.png
+mvp-x-ray.html -> images/DB-unlike_1DB-unlike.png
+mvp-x-ray.html -> images/falta_señalizacion.svg
+mvp-x-ray.html -> images/estatus-b_1estatus-b.png
+mvp-x-ray.html -> images/corrupción.png
+13-cross-index-2018.html -> images/Menu-Icon_1Menu-Icon.png
+13-cross-index-2018.html -> images/güinect-MOVIL-Redes_1güinect-MOVIL-Redes.png
+13-cross-index-2018.html -> images/04.-Notificaciones-tut_104.-Notificaciones-tut.png
+13-cross-index-2018.html -> images/05.-Desarrollo-Local_105.-Desarrollo-Local.png
+13-cross-index-2018.html -> images/05.-Desarrollo-Local-Hover_105.-Desarrollo-Local-Hover.png
+13-cross-index-2018.html -> images/10.-Estadísticas-Hover.png
+13-cross-index-2018.html -> images/1.-Humano-hover_11.-Humano-hover.png
+shell-structure.html -> images/Menu-Icon_1Menu-Icon.png
+shell-structure.html -> images/ui-mini-no-transparent_1ui-mini-no-transparent.png
+shell-structure.html -> images/estatus-b_1estatus-b.png
+patty-duran.html -> images/Menu-Icon_1Menu-Icon.png
+patty-duran.html -> images/ui-mini-no-transparent_1ui-mini-no-transparent.png
+patty-duran.html -> images/Patty-Durán.png
+patty-duran.html -> images/1.-Resultados_11.-Resultados.png
+patty-duran.html -> images/2.-Ranking_12.-Ranking.png
+patty-duran.html -> images/4.-Responsabilidades_14.-Responsabilidades.png
+patty-duran.html -> images/5.-CV_15.-CV.png
+patty-duran.html -> images/6.-Jurisdicción_16.-Jurisdicción.png
+patty-duran.html -> images/7.-Proyectos_17.-Proyectos.png
+patty-duran.html -> images/8.-Compromisos_18.-Compromisos.png
+patty-duran.html -> images/9.-Agenda_19.-Agenda.png
+patty-duran.html -> images/10.-Denuncia_110.-Denuncia.png
+patty-duran.html -> images/11.-Transparencia_111.-Transparencia.png
+patty-duran.html -> images/minicheck-orange_1minicheck-orange.png
+patty-duran.html -> images/minicheck-orange_1minicheck-orange.png
+patty-duran.html -> images/minicheck-orange_1minicheck-orange.png
+patty-duran.html -> images/minicheck-orange_1minicheck-orange.png
+patty-duran.html -> images/peña.png
+patty-duran.html -> images/peña.png
+patty-duran.html -> images/peña.png
+patty-duran.html -> images/peña.png
+patty-duran.html -> images/peña.png
+patty-duran.html -> images/peña.png
+patty-duran.html -> images/peña.png
+patty-duran.html -> images/peña.png
+patty-duran.html -> images/peña.png
+patty-duran.html -> images/peña.png
+patty-duran.html -> images/peña.png
+patty-duran.html -> images/peña.png
+patty-duran.html -> images/peña.png
+patty-duran.html -> images/peña.png
+patty-duran.html -> images/peña.png
+patty-duran.html -> images/México.png
+patty-duran.html -> images/minicheck-orange_1minicheck-orange.png
+patty-duran.html -> images/minicheck-orange_1minicheck-orange.png
+patty-duran.html -> images/minicheck-orange_1minicheck-orange.png
+patty-duran.html -> images/DB-attach_1DB-attach.png
+patty-duran.html -> images/DB-camara_1DB-camara.png
+patty-duran.html -> images/DB-camara_1DB-camara.png
+patty-duran.html -> images/minicheck-orange_1minicheck-orange.png
+patty-duran.html -> images/minicheck-orange_1minicheck-orange.png
+patty-duran.html -> images/minicheck-orange_1minicheck-orange.png
+patty-duran.html -> images/minicheck-orange_1minicheck-orange.png
+jaurumy-esmeralda-mendez-reyes.html -> images/Menu-Icon_1Menu-Icon.png
+jaurumy-esmeralda-mendez-reyes.html -> images/ui-mini-no-transparent_1ui-mini-no-transparent.png
+jaurumy-esmeralda-mendez-reyes.html -> images/postes_dañados.svg
+jaurumy-esmeralda-mendez-reyes.html -> images/peticiones-digitales-b_1peticiones-digitales-b.png
+jaurumy-esmeralda-mendez-reyes.html -> images/peticiones-digitales-b_1peticiones-digitales-b.png
+jaurumy-esmeralda-mendez-reyes.html -> images/orange-rarrow_1orange-rarrow.png
+jaurumy-esmeralda-mendez-reyes.html -> images/minicheck-orange_1minicheck-orange.png
+jaurumy-esmeralda-mendez-reyes.html -> images/minicheck-orange_1minicheck-orange.png
+jaurumy-esmeralda-mendez-reyes.html -> images/minicheck-orange_1minicheck-orange.png
+jaurumy-esmeralda-mendez-reyes.html -> images/minicheck-orange_1minicheck-orange.png
+03-polipedia-2018.html -> images/Menu-Icon_1Menu-Icon.png
+03-polipedia-2018.html -> images/ui-mini-no-transparent_1ui-mini-no-transparent.png
+03-polipedia-2018.html -> images/peña.png
+03-polipedia-2018.html -> images/1.-Resultados_11.-Resultados.png
+03-polipedia-2018.html -> images/2.-Ranking_12.-Ranking.png
+03-polipedia-2018.html -> images/3.-Reputación-social_13.-Reputación-social.png
+03-polipedia-2018.html -> images/4.-Responsabilidades_14.-Responsabilidades.png
+03-polipedia-2018.html -> images/5.-CV_15.-CV.png
+03-polipedia-2018.html -> images/6.-Jurisdicción_16.-Jurisdicción.png
+
+GitHub-only preserved examples:
+  standard-structure.html
+  contact.html
+  candidate-en.html
+  home-en.html
+  home-es.html
+  left-menu-component.html
+  CNAME
+  left-menu-preview.html
+  .gitattributes
+  seleccion-de-soluciones-eng.html
+  js/custom.js
+  css/left-menu.css
+  css/shell.css
+  images/Screenshot-2025-08-31-at-12.31.15-AM.png
+  images/Edgar-Dumz.png
+  images/ui-contact-p-130x130q80.png
+  images/ui-contact.png
+  images/ppui-in_1ppui in.png
+  images/falta_se#U00f1alizacion.svg
+  images/Screenshot-2025-08-31-at-12.31.15-AM-p-800.png
+  images/0002_ui_redes_10002_ui_redes.png
+  images/postes_da#U00f1ados.svg
+  images/Edgar-Dumz-p-130x130q80.png
+  images/ppui-in_1ppui-in.png
+  images/Joran-Tor-p-130x130q80.png
+  images/Joran-Tor.png
+  images/Screenshot-2025-08-31-at-12.31.15-AM-p-500.png
+  public-2026/js/webflow.js
+  public-2026/css/uigov.webflow.css
+  public-2026/css/normalize.css
+  public-2026/css/webflow.css
+  public-2026/images/gui_14_g.png
+  public-2026/images/gd_objetivos-de-desarrollo-p-130x130q80.png
+  public-2026/images/ui-contact-02-p-130x130q80.png
+  public-2026/images/mini-debate_1mini debate.png
+  public-2026/images/10.-Denuncia-hover_110. Denuncia hover.png
+  public-2026/images/grafiti.svg
+  public-2026/images/salud-b.png
+  public-2026/images/pavimentado-p-130x130q80.png
+  public-2026/images/playera-1-p-800.jpeg
+
+MAIN LANDING VALIDATION
+Main Webflow landing pages checked: index.html, f-qs-es.html, contacto.html, landing-precandidato.html, old-home-2.html, f-qs.html, contact-en.html
+Missing local references in these main pages after non-invasive asset alias repair: 0
+No HTML/CSS/JS from Webflow was edited to make these repairs; only missing filename aliases were added.
