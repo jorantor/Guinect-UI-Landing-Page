@@ -1,0 +1,2283 @@
+/* UIGOV to GitHub sync (Nov 2026). Styles scoped to new pages and shared footer. */
+
+body.guinect-uigov-sync .section-final-cta {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+body.guinect-uigov-sync .intro-highlight {
+  display: flex;
+  width: 100%;
+  max-width: 940px;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.guinect-footer-host .footer-link {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  color: hsla(228, 0.00%, 100.00%, 1.00);
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+body.guinect-uigov-sync .community-process-container {
+  display: flex;
+  max-width: 1080px;
+  margin-top: 11px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: hsla(223, 0.00%, 100.00%, 0.67);
+}
+
+body.guinect-uigov-sync .landing-button {
+  max-width: 200px;
+  min-width: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 13px;
+  padding-right: 30px;
+  padding-bottom: 13px;
+  padding-left: 30px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: var(--dark-orange);
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: var(--dark-orange);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: var(--dark-orange);
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: var(--dark-orange);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: hsla(217.6470588235294, 29.48%, 33.92%, 0.00);
+  color: var(--dark-orange);
+  font-weight: 700;
+  text-align: center;
+}
+
+body.guinect-uigov-sync .superpoder {
+  display: flex;
+  padding-right: 0px;
+  padding-left: 9px;
+  justify-content: center;
+  align-items: center;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: var(--light-steel-blue);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: var(--light-steel-blue);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--light-steel-blue);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: var(--light-steel-blue);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: hsla(0, 0.00%, 100.00%, 0.59);
+}
+
+body.guinect-uigov-sync .div-7 {
+  position: relative;
+}
+
+body.guinect-uigov-sync .h3-bold-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: var(--dark-slate-blue);
+  line-height: 1.2em;
+  text-align: center;
+  font-size: clamp(1.5rem, 6vw, 2rem);
+}
+
+body.guinect-uigov-sync .div-block-1357 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+}
+
+body.guinect-uigov-sync .negrita {
+  font-weight: 700;
+}
+
+.guinect-footer-host .footer-social-link {
+  width: 40px;
+  margin-left: 0px;
+}
+
+body.guinect-uigov-sync .community-insight-media {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .registration-button {
+  display: block;
+  width: 100%;
+  height: 45px;
+  margin-top: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #f8831b;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+body.guinect-uigov-sync .hero-section {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.41),rgba(255, 255, 255, 0.41)), @img_5c195cece585175deabc409e;
+  background-position: 0px 0px, 50% 100%;
+  background-size: auto, cover;
+  background-repeat: repeat, repeat-x;
+}
+
+body.guinect-uigov-sync .community-management-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+body.guinect-uigov-sync .h4-subtitle.white-txt.bold {
+  font-size: clamp(.8rem, 6vw, 1.3rem);
+}
+
+body.guinect-uigov-sync .section-community-management {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-image: linear-gradient(to bottom, hsla(215, 45.59%, 93.87%, 0.65),hsla(215, 45.59%, 93.87%, 0.65)), @img_5c195cece585174f18bc3fa8;
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, auto;
+  background-attachment: scroll, scroll;
+}
+
+body.guinect-uigov-sync .monitoring-screen-3 {
+  position: relative;
+  left: -11px;
+  top: 13px;
+  max-width: 90%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 9px 9px 15px 5px rgba(0,0,0,0.2);
+}
+
+body.guinect-uigov-sync .community-insight-content {
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.guinect-footer-host .guinect-logo-footer {
+  height: 50px;
+}
+
+body.guinect-uigov-sync .hero-container {
+  display: flex;
+  width: auto;
+  height: auto;
+  max-width: 940px;
+  padding-right: 0px;
+  padding-left: 0px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+}
+
+body.guinect-uigov-sync .digital-governance-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .h3-subtitle {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: Lato;
+  color: var(--dark-slate-blue);
+  line-height: 1.3em;
+  font-weight: 400;
+  text-align: center;
+  font-size: clamp(1.5rem, 6vw, 1.6rem);
+}
+
+body.guinect-uigov-sync .bold {
+  font-weight: 700;
+}
+
+body.guinect-uigov-sync .text-span-5 {
+  font-weight: 900;
+}
+
+body.guinect-uigov-sync .section-community-insight {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+body.guinect-uigov-sync .ui-actions-botton {
+  width: auto;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-left: 5px;
+  border-top-style: none;
+  border-top-width: 1px;
+  border-top-color: var(--light-steel-blue);
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: var(--light-steel-blue);
+  border-bottom-style: none;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--light-steel-blue);
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: var(--light-steel-blue);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: hsla(0, 0.00%, 100.00%, 0.00);
+  font-family: Lato;
+  color: var(--dark-slate-blue-2);
+  font-weight: 400;
+}
+
+body.guinect-uigov-sync .digital-governance-media {
+  text-align: center;
+}
+
+.guinect-footer-host .image-432 {
+  width: auto;
+  height: 100%;
+  max-width: none;
+}
+
+body.guinect-uigov-sync .text-span-9 {
+  font-weight: 900;
+}
+
+body.guinect-uigov-sync .image-375 {
+  width: 100%;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  box-shadow: 8px 13px 11px -1px rgba(0,0,0,0.2);
+}
+
+body.guinect-uigov-sync .text-block-354 {
+  font-size: 16px;
+  text-align: center;
+}
+
+body.guinect-uigov-sync .neighbour-container {
+  display: flex;
+  width: 100%;
+  max-width: 1040px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+body.guinect-uigov-sync .list {
+  display: flex;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: var(--dark-orange);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: var(--dark-orange);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--dark-orange);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: var(--dark-orange);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: hsla(0, 0.00%, 100.00%, 0.78);
+  color: var(--dark-slate-blue);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+body.guinect-uigov-sync .h2-feature-title {
+  padding-left: 30px;
+  font-family: Lato;
+  color: var(--dark-orange);
+  font-weight: 400;
+  text-align: left;
+  font-size: clamp(1.5rem, 1.125rem + 1.667vw, 2.5rem);
+}
+
+body.guinect-uigov-sync .text-span-11 {
+  color: var(--dark-slate-blue-2);
+}
+
+body.guinect-uigov-sync .hero_feature_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-self: stretch;
+  grid-column-gap: 19px;
+  grid-row-gap: 19px;
+  text-align: center;
+}
+
+.guinect-footer-host .footer-button {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: var(--white);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--white);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: var(--white);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: var(--white);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+body.guinect-uigov-sync .monitoring-benefits {
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: var(--white);
+  transform: translate(0px, 0px);
+}
+
+body.guinect-uigov-sync .community-management-layout {
+  display: flex;
+  width: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .gray-guinner {
+  position: static;
+  display: inline-block;
+  height: 100%;
+  max-width: 100%;
+}
+
+.guinect-footer-host .footer-brand-wrapper {
+  display: flex;
+  width: 30%;
+}
+
+body.guinect-uigov-sync .image-430 {
+  position: absolute;
+  left: 40%;
+  top: auto;
+  right: 30%;
+  bottom: 0%;
+  height: 220px;
+  max-width: none;
+}
+
+body.guinect-uigov-sync .guinner-family-wrapper {
+  display: flex;
+  width: 100%;
+  height: 130px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 0px;
+  padding-left: 0px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+body.guinect-uigov-sync .community-insight-layout {
+  display: flex;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .collective-intelligence-item {
+  display: flex;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+}
+
+.guinect-footer-host .footer-divider {
+  width: 100%;
+  height: 1px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: hsla(212.00000000000006, 38.46%, 92.35%, 1.00);
+}
+
+body.guinect-uigov-sync .text-span-4 {
+  font-weight: 900;
+}
+
+body.guinect-uigov-sync .text-span-6 {
+  font-weight: 900;
+}
+
+body.guinect-uigov-sync .monitoring-screen-1 {
+  position: relative;
+  right: -34px;
+  bottom: -13px;
+  max-width: 90%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: -9px 9px 15px 4px rgba(0,0,0,0.2);
+}
+
+.guinect-footer-host .footer-copyright {
+  color: var(--white);
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
+
+body.guinect-uigov-sync .div-3 {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  right: 20%;
+  bottom: 20%;
+  height: auto;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, hsla(0, 0.00%, 100.00%, 0.76) 19%, hsla(0, 0.00%, 100.00%, 0.00) 63%);
+}
+
+.guinect-footer-host .footer-legal-links {
+  display: flex;
+  grid-column-gap: 19px;
+  grid-row-gap: 19px;
+}
+
+body.guinect-uigov-sync .final-cta-layout {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.guinect-footer-host .div-10 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+}
+
+body.guinect-uigov-sync .final-cta-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+body.guinect-uigov-sync .guinner {
+  height: 100%;
+}
+
+.guinect-footer-host .middle-wrapper.white {
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.47),rgba(255, 255, 255, 0.47));
+}
+
+.guinect-footer-host .footer-label-title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: clamp(.8rem, 6vw, 1.3rem);
+}
+
+body.guinect-uigov-sync .monitoring-screens-grid {
+  position: relative;
+  display: grid;
+  width: 100%;
+  grid-auto-flow: row;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+body.guinect-uigov-sync .orange-txt {
+  color: var(--dark-orange);
+}
+
+body.guinect-uigov-sync .div-5 {
+  display: flex;
+  width: 100%;
+  max-width: 1040px;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  text-align: left;
+}
+
+body.guinect-uigov-sync .form-15 {
+  display: flex;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+body.guinect-uigov-sync .monitoring-benefits-layout {
+  display: flex;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .bold-txt {
+  font-weight: 900;
+}
+
+body.guinect-uigov-sync .title-space-wrap {
+  display: flex;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .neighbour-layout {
+  position: relative;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  grid-column-gap: 33px;
+  grid-row-gap: 33px;
+}
+
+body.guinect-uigov-sync .hero-registration-form {
+  display: flex;
+  width: 40%;
+  padding-top: 30px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: var(--alice-blue);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: var(--alice-blue);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--alice-blue);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: var(--alice-blue);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: var(--white);
+  box-shadow: 0 16px 42px 0 rgba(30, 34, 51, 0.08);
+}
+
+body.guinect-uigov-sync .section-neighbours-hero {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-image: linear-gradient(to bottom, hsla(0, 0.00%, 100.00%, 0.92),hsla(0, 0.00%, 100.00%, 0.92)), @img_5c195cece58517ed0ebc3f79;
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, 130px;
+}
+
+.guinect-footer-host .footer-button.white {
+  background-color: var(--white);
+  color: var(--dark-orange);
+  font-weight: 700;
+}
+
+body.guinect-uigov-sync .governance-benefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  grid-column-gap: 13px;
+  grid-row-gap: 13px;
+}
+
+body.guinect-uigov-sync .monitoring-benefits-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+body.guinect-uigov-sync .digital-governance-layout {
+  display: flex;
+  width: 90%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .features-section {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: hsla(0, 0.00%, 100.00%, 0.00);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.83),rgba(255, 255, 255, 0.83)), @img_5c195cece58517ed0ebc3f79;
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, 112px;
+}
+
+.guinect-footer-host .footer-es {
+  position: relative;
+  display: flex;
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: hsla(212.00000000000006, 38.46%, 92.35%, 1.00);
+  background-color: var(--dark-orange);
+  color: var(--white);
+}
+
+body.guinect-uigov-sync .check {
+  display: block;
+  width: 100%;
+  max-width: none;
+}
+
+body.guinect-uigov-sync .hero-feature-icon {
+  display: flex;
+  width: 150px;
+  max-width: none;
+  margin-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, hsla(0, 0.00%, 100.00%, 0.38), hsla(0, 0.00%, 100.00%, 0.00));
+}
+
+body.guinect-uigov-sync .monitoring-benefits-container {
+  display: flex;
+  max-width: 1140px;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.guinect-footer-host .div-11 {
+  height: 150px;
+}
+
+body.guinect-uigov-sync .action-card {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: var(--dark-orange);
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: var(--dark-orange);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: var(--dark-orange);
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: var(--dark-orange);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: hsla(0, 0.00%, 100.00%, 0.52);
+  box-shadow: 8px 11px 15px -1px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+body.guinect-uigov-sync .list-text {
+  width: 90%;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  border-top-style: none;
+  border-top-width: 1px;
+  border-top-color: var(--white);
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: var(--white);
+  border-bottom-style: none;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--white);
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: var(--white);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: hsla(239, 0.00%, 100.00%, 0.00);
+  color: var(--dark-slate-blue);
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  text-align: left;
+}
+
+body.guinect-uigov-sync .section-digital-governance {
+  width: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+body.guinect-uigov-sync .card_wrapper {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+body.guinect-uigov-sync .sublined {
+  text-decoration: underline;
+}
+
+.guinect-footer-host .footer-container {
+  width: 100%;
+  max-width: 1040px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body.guinect-uigov-sync .monitoring_wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+body.guinect-uigov-sync .centered_button_wrapper {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+body.guinect-uigov-sync .text-span-8 {
+  font-weight: 900;
+}
+
+body.guinect-uigov-sync .monitoring-screen-2 {
+  position: relative;
+  z-index: 1;
+  width: 600px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 10px 14px 5px hsla(24, 0.00%, 0.00%, 0.20);
+}
+
+.guinect-footer-host .footer-wrapper {
+  display: flex;
+  max-width: none;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .intro-layout {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .hero-media-image {
+  position: static;
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  grid-column-gap: 11px;
+  grid-row-gap: 11px;
+}
+
+body.guinect-uigov-sync .section-intro {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.guinect-footer-host .footer-brand {
+  display: flex;
+  width: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  font-family: Lato;
+  text-align: left;
+}
+
+body.guinect-uigov-sync .feature_card_home {
+  display: flex;
+  padding-right: 0px;
+  padding-left: 0px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+body.guinect-uigov-sync .paragraph-8 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: var(--dark-orange);
+  font-size: 28px;
+  line-height: 45px;
+  font-weight: 300;
+}
+
+body.guinect-uigov-sync .intro-container {
+  width: 100%;
+  max-width: 940px;
+}
+
+body.guinect-uigov-sync .community-management-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .monitoring-benefits-media {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .features-container {
+  display: block;
+  width: auto;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  text-align: center;
+}
+
+body.guinect-uigov-sync .legend-text {
+  font-size: 11px;
+  text-align: center;
+}
+
+body.guinect-uigov-sync .uiwrapper {
+  position: relative;
+  display: block;
+  height: 100%;
+  margin-right: 0px;
+  padding-right: 1px;
+  padding-left: 1px;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+body.guinect-uigov-sync .bold.orange {
+  color: var(--dark-orange);
+}
+
+body.guinect-uigov-sync .community-process-grid {
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  grid-column-gap: 18px;
+  grid-row-gap: 18px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+body.guinect-uigov-sync .icon-wrapper {
+  width: 35px;
+  margin-left: 0px;
+}
+
+body.guinect-uigov-sync .hero-features {
+  display: flex;
+  width: 90%;
+  max-width: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+body.guinect-uigov-sync .intro-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-self: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+body.guinect-uigov-sync .intro-media {
+  text-align: center;
+}
+
+body.guinect-uigov-sync .div-block-890 {
+  position: absolute;
+  display: block;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-image: linear-gradient(to bottom, white,white);
+}
+
+body.guinect-uigov-sync .text-span-10 {
+  color: var(--dark-orange);
+}
+
+body.guinect-uigov-sync .local-monitoring-category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+body.guinect-uigov-sync .local-monitoring-grid {
+  display: flex;
+  width: 100%;
+  padding-left: 0px;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+body.guinect-uigov-sync .hero-title {
+  font-family: Lato;
+  color: var(--dark-slate-blue);
+  line-height: 1.2em;
+  font-weight: 400;
+  text-align: center;
+  font-size: clamp(2rem, 1.625rem + 1.667vw, 3rem);
+}
+
+.guinect-footer-host .image-431 {
+  width: auto;
+  height: 100%;
+  max-width: none;
+}
+
+body.guinect-uigov-sync .h2-cta-title {
+  font-family: Lato;
+}
+
+body.guinect-uigov-sync .process-step {
+  display: flex;
+  padding-right: 5px;
+  padding-left: 5px;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  text-align: center;
+}
+
+.guinect-footer-host .footer-legal-links-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1040px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .hero-title.bold {
+  margin-top: 0px;
+  font-weight: 700;
+}
+
+body.guinect-uigov-sync .digital-governance-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+body.guinect-uigov-sync .h3-bold-title.orange_txt {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: var(--dark-orange);
+}
+
+body.guinect-uigov-sync .section-measurable-outcomes {
+  display: flex;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  background-color: hsla(0, 100.00%, 99.78%, 1.00);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.83),rgba(255, 255, 255, 0.83)), @img_5c195cece58517ed0ebc3f79;
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, 112px;
+}
+
+body.guinect-uigov-sync .form-text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+body.guinect-uigov-sync .measurable-description-layout {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+body.guinect-uigov-sync .h4-subtitle.bold {
+  font-weight: 700;
+}
+
+body.guinect-uigov-sync .text-span-7 {
+  font-weight: 900;
+}
+
+body.guinect-uigov-sync .section-local-monitoring {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  background-color: hsla(211, 56.81%, 96.91%, 0.00);
+}
+
+body.guinect-uigov-sync .text-span-12 {
+  color: var(--dark-orange);
+}
+
+body.guinect-uigov-sync .inicia-sesion {
+  color: var(--dark-slate-blue-2);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+body.guinect-uigov-sync .measurable-description-container {
+  display: block;
+  max-width: 950px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.guinect-footer-host .footer-content-wrapper {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: stretch;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+body.guinect-uigov-sync .box_form {
+  width: 100%;
+  height: 45px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: var(--light-steel-blue);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: var(--light-steel-blue);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--light-steel-blue);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: var(--light-steel-blue);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: hsla(0, 0.00%, 100.00%, 1.00);
+  color: hsla(0, 0.00%, 67.33%, 1.00);
+  font-size: 14px;
+}
+
+.guinect-footer-host .footer-column {
+  display: flex;
+  width: 33%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+body.guinect-uigov-sync .community-management-container {
+  width: 100%;
+}
+
+body.guinect-uigov-sync .div-8 {
+  display: flex;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+body.guinect-uigov-sync .hero-logo {
+  width: 300px;
+}
+
+body.guinect-uigov-sync .ui-landing-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: var(--dark-slate-blue);
+  line-height: 1.3em;
+  font-weight: 300;
+  text-align: center;
+  font-size: clamp(1rem, 6vw, 1.6rem);
+}
+
+body.guinect-uigov-sync .local-monitoring-container {
+  position: static;
+  display: flex;
+  width: 940px;
+  max-width: none;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  text-align: left;
+}
+
+body.guinect-uigov-sync .h4-subtitle {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Lato;
+  color: var(--dark-slate-blue-2);
+  line-height: 1.4em;
+  font-weight: 400;
+  text-align: center;
+  font-size: clamp(.8rem, 6vw, 1.3rem);
+}
+
+@media (max-width: 991px) {
+body.guinect-uigov-sync .section-final-cta {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .intro-highlight {
+  width: 90%;
+  max-width: none;
+  margin-top: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .community-process-container {
+  width: 90%;
+  max-width: none;
+}
+
+body.guinect-uigov-sync .uiwrapper.excess {
+  display: none;
+}
+
+body.guinect-uigov-sync .hero-section {
+  height: auto;
+}
+
+body.guinect-uigov-sync .section-community-management {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .hero-container {
+  width: 90%;
+  max-width: none;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .digital-governance-container {
+  width: 90%;
+  max-width: none;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .community-insight-container {
+  width: 90%;
+  max-width: none;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .neighbour-container {
+  padding-right: 20px;
+  padding-left: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .list {
+  min-width: 390px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+body.guinect-uigov-sync .monitoring-benefits {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .community-management-layout {
+  padding-top: 0px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+body.guinect-uigov-sync .image-430 {
+  height: 170px;
+}
+
+body.guinect-uigov-sync .guinner-family-wrapper {
+  height: 100px;
+}
+
+body.guinect-uigov-sync .final-cta-container {
+  width: 90%;
+  max-width: none;
+}
+
+.guinect-footer-host .footer-label-title {
+  line-height: 25px;
+  text-align: center;
+}
+
+body.guinect-uigov-sync .monitoring-screens-grid {
+  width: 90%;
+}
+
+body.guinect-uigov-sync .div-5 {
+  justify-content: center;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .monitoring-benefits-layout {
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .community-management-content {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+body.guinect-uigov-sync .neighbour-layout {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+body.guinect-uigov-sync .hero-registration-form {
+  width: 100%;
+  max-width: 620px;
+}
+
+body.guinect-uigov-sync .governance-benefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-self: auto;
+}
+
+body.guinect-uigov-sync .monitoring-benefits-list {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+body.guinect-uigov-sync .digital-governance-layout {
+  width: 100%;
+}
+
+.guinect-footer-host .footer-es {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .hero-feature-icon {
+  width: 130px;
+  max-width: 90%;
+}
+
+body.guinect-uigov-sync .monitoring-benefits-container {
+  width: 90%;
+  max-width: none;
+  padding-right: 0px;
+  padding-left: 0px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+body.guinect-uigov-sync .action-card {
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  align-self: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+body.guinect-uigov-sync .list-text {
+  padding-right: 5px;
+  padding-left: 5px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+body.guinect-uigov-sync .section-digital-governance {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .card_wrapper {
+  display: flex;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.guinect-footer-host .footer-container {
+  width: 90%;
+  max-width: none;
+}
+
+body.guinect-uigov-sync .local-monitoring-media {
+  display: flex;
+  padding-right: 0px;
+  padding-left: 0px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.guinect-footer-host .footer-wrapper {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+body.guinect-uigov-sync .intro-layout {
+  display: flex;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .section-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.guinect-footer-host .footer-brand {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+}
+
+body.guinect-uigov-sync .feature_card_home {
+  display: flex;
+  padding-right: 0px;
+  padding-left: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .intro-container {
+  display: flex;
+  width: 90%;
+  max-width: none;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .community-management-media {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+body.guinect-uigov-sync .monitoring-benefits-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .features-container {
+  width: 90%;
+  max-width: none;
+}
+
+body.guinect-uigov-sync .community-process-grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+body.guinect-uigov-sync .hero-features {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+body.guinect-uigov-sync .intro-content {
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+body.guinect-uigov-sync .local-monitoring-category {
+  display: flex;
+  margin-bottom: 41px;
+  padding-right: 20px;
+  padding-left: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+body.guinect-uigov-sync .local-monitoring-grid {
+  width: 90%;
+  margin-right: 0px;
+  margin-left: 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+body.guinect-uigov-sync .hero-title.bold {
+  text-align: center;
+}
+
+body.guinect-uigov-sync .section-measurable-outcomes {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .measurable-description-layout {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+body.guinect-uigov-sync .measurable-description-container {
+  width: 90%;
+  max-width: none;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.guinect-footer-host .footer-content-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  grid-column-gap: 38px;
+  grid-row-gap: 38px;
+}
+
+body.guinect-uigov-sync .box_form {
+  min-width: 400px;
+}
+
+.guinect-footer-host .footer-column {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+body.guinect-uigov-sync .community-management-container {
+  width: 90%;
+  max-width: none;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .ui-landing-text {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+body.guinect-uigov-sync .local-monitoring-container {
+  width: 90%;
+  max-width: none;
+  padding-left: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+}
+
+@media (max-width: 767px) {
+.guinect-footer-host .footer-link {
+  text-align: center;
+}
+
+body.guinect-uigov-sync .landing-button {
+  max-width: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+body.guinect-uigov-sync .superpoder {
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .div-block-1357 {
+  display: flex;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.guinect-footer-host .footer-social-link {
+  margin-left: 20px;
+}
+
+body.guinect-uigov-sync .community-insight-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .div-block-1356 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .ui-actions-botton {
+  padding-right: 8px;
+  padding-left: 5px;
+  font-size: 12px;
+}
+
+body.guinect-uigov-sync .hero_feature_wrapper {
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+body.guinect-uigov-sync .image-430 {
+  height: 140px;
+}
+
+body.guinect-uigov-sync .guinner-family-wrapper {
+  height: 90px;
+}
+
+body.guinect-uigov-sync .community-insight-layout {
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.guinect-footer-host .footer-divider {
+  margin-top: 60px;
+}
+
+body.guinect-uigov-sync .final-cta-layout {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .final-cta-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.guinect-footer-host .footer-label-title {
+  text-align: center;
+}
+
+body.guinect-uigov-sync .community-management-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+body.guinect-uigov-sync .monitoring-screens-grid {
+  width: 95%;
+}
+
+body.guinect-uigov-sync .uiwrapper.excess2 {
+  display: none;
+}
+
+body.guinect-uigov-sync .section-neighbours-hero {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+body.guinect-uigov-sync .monitoring-benefits-list {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+body.guinect-uigov-sync .digital-governance-layout {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.guinect-footer-host .footer-es {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+body.guinect-uigov-sync .hero-feature-icon {
+  width: 120px;
+}
+
+body.guinect-uigov-sync .monitoring-benefits-container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+body.guinect-uigov-sync .action-card {
+  width: auto;
+  height: 230px;
+  min-width: 350px;
+}
+
+body.guinect-uigov-sync .list-text {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+body.guinect-uigov-sync .card_wrapper {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.guinect-footer-host .footer-wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .hero-media-image {
+  width: 90%;
+}
+
+body.guinect-uigov-sync .feature_card_home {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+body.guinect-uigov-sync .paragraph-8 {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+body.guinect-uigov-sync .features-container {
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+body.guinect-uigov-sync .community-process-grid {
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+
+body.guinect-uigov-sync .icon-wrapper {
+  width: 28px;
+  margin-left: 5px;
+}
+
+body.guinect-uigov-sync .hero-features {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+body.guinect-uigov-sync .local-monitoring-category {
+  margin-bottom: 30px;
+}
+
+body.guinect-uigov-sync .digital-governance-content {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.guinect-footer-host .footer-content-wrapper {
+  margin-top: 0px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  grid-template-columns: 1fr;
+}
+
+body.guinect-uigov-sync .box_form {
+  min-width: 0px;
+}
+
+.guinect-footer-host .footer-column {
+  width: 100%;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .community-management-container {
+  text-align: left;
+}
+
+body.guinect-uigov-sync .hero-logo {
+  width: 200px;
+}
+
+body.guinect-uigov-sync .ui-landing-text {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+body.guinect-uigov-sync .local-monitoring-container {
+  justify-content: space-between;
+  align-items: center;
+}
+}
+
+@media (max-width: 479px) {
+body.guinect-uigov-sync .community-process-container {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .h3-subtitle {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-size: 22px;
+}
+
+body.guinect-uigov-sync .ui-actions-botton {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .list {
+  min-width: auto;
+}
+
+body.guinect-uigov-sync .h2-feature-title {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-size: 30px;
+}
+
+body.guinect-uigov-sync .hero_feature_wrapper {
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.guinect-footer-host .footer-button {
+  text-align: center;
+}
+
+.guinect-footer-host .footer-brand-wrapper {
+  width: 100%;
+}
+
+body.guinect-uigov-sync .image-430 {
+  height: 80px;
+}
+
+body.guinect-uigov-sync .guinner-family-wrapper {
+  height: 53px;
+}
+
+body.guinect-uigov-sync .community-insight-layout {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+body.guinect-uigov-sync .collective-intelligence-item {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.guinect-footer-host .footer-legal-links {
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+.guinect-footer-host .div-10 {
+  width: 100%;
+}
+
+body.guinect-uigov-sync .monitoring-screens-grid {
+  width: 100%;
+}
+
+body.guinect-uigov-sync .monitoring-benefits-layout {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+body.guinect-uigov-sync .hero-registration-form {
+  padding-top: 20px;
+  padding-right: 16px;
+  padding-bottom: 20px;
+  padding-left: 16px;
+}
+
+.guinect-footer-host .footer-button.white {
+  text-align: center;
+}
+
+body.guinect-uigov-sync .monitoring-benefits-list {
+  margin-bottom: 10px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .digital-governance-layout {
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+body.guinect-uigov-sync .hero-feature-icon {
+  width: 75px;
+  max-width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .monitoring-benefits-container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .action-card {
+  width: 80%;
+}
+
+body.guinect-uigov-sync .card_wrapper {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.guinect-footer-host .footer-container {
+  max-width: none;
+}
+
+body.guinect-uigov-sync .local-monitoring-media {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .hero-media-image {
+  width: 95%;
+}
+
+body.guinect-uigov-sync .section-intro {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+body.guinect-uigov-sync .hero-features {
+  margin-top: 0px;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+}
+
+body.guinect-uigov-sync .local-monitoring-category {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+body.guinect-uigov-sync .hero-title {
+  font-size: 30px;
+}
+
+body.guinect-uigov-sync .h2-cta-title {
+  text-align: center;
+}
+
+.guinect-footer-host .footer-legal-links-wrapper {
+  justify-content: center;
+  align-items: center;
+}
+
+body.guinect-uigov-sync .box_form {
+  min-width: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.guinect-footer-host .footer-column {
+  width: 100%;
+}
+
+body.guinect-uigov-sync .div-8 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+body.guinect-uigov-sync .local-monitoring-container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body.guinect-uigov-sync .h4-subtitle {
+  font-size: 20px;
+}
+}
+
+body.guinect-uigov-sync .box_form {box-sizing:border-box;max-width:100%;}
+body.guinect-uigov-sync .hero-registration-form {box-sizing:border-box;}
+.guinect-footer-host {display:block;width:100%;}
+@media(max-width:479px){body.guinect-uigov-sync #registro input{min-width:0;max-width:100%;}}
