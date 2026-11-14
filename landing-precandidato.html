@@ -26,6 +26,133 @@
   gtag('config', 'UA-122928276-1');
 </script>
   <link href="css/uigov-export-footer.css" rel="stylesheet" type="text/css">
+  <style id="precandidato-hero-layout-fix">
+    /* Precandidato only: restore a coherent desktop and mobile hero layout. */
+    .section-hero-precandidato {
+      min-height: 690px;
+      padding: 72px 24px 80px;
+    }
+    .section-hero-precandidato .hero-precandidato-container {
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+      align-items: center;
+      gap: clamp(32px, 4vw, 72px);
+      width: min(100%, 1240px);
+      max-width: 1240px;
+      margin: 0 auto;
+    }
+    .section-hero-precandidato .hero-precandidato-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      min-width: 0;
+      padding: 0;
+      gap: 24px;
+      text-align: center;
+    }
+    .section-hero-precandidato .hero-title {
+      width: 100%;
+      max-width: 650px;
+      margin: 0;
+      line-height: 1.15;
+    }
+    .section-hero-precandidato .ui-landing-text {
+      max-width: 610px;
+      margin: 0;
+      padding: 0;
+      line-height: 1.4;
+    }
+    .section-hero-precandidato .div-8 {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      width: 100%;
+      padding: 4px 0;
+      margin: 0;
+    }
+    .section-hero-precandidato .superpoder {
+      display: inline-flex;
+      flex: 0 0 auto;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 7px;
+      border: 1px solid #b0bfe6;
+      border-radius: 999px;
+      background: rgba(255,255,255,.88);
+      padding: 9px 15px;
+      min-height: 48px;
+    }
+    .section-hero-precandidato .superpoder .icon-wrapper {
+      display: flex;
+      flex: 0 0 auto;
+      justify-content: center;
+      align-items: center;
+      width: 23px;
+      height: 23px;
+      margin: 0;
+      padding: 0;
+    }
+    .section-hero-precandidato .superpoder .icon-wrapper img {
+      display: block;
+      width: 23px;
+      height: 23px;
+      object-fit: contain;
+    }
+    .section-hero-precandidato .ui-actions-botton {
+      display: inline-block;
+      width: auto;
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      color: #3d5070;
+      font-size: 16px;
+      line-height: 1.3;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .section-hero-precandidato .landing-button {
+      margin-top: 8px;
+    }
+    .section-hero-precandidato .hero-precandidato-media {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      min-width: 0;
+    }
+    .section-hero-precandidato .hero-precandidato-media img {
+      display: block;
+      width: 100%;
+      max-width: 540px;
+      height: auto;
+      object-fit: contain;
+    }
+    @media (max-width: 991px) {
+      .section-hero-precandidato { min-height: 0; padding: 56px 20px 64px; }
+      .section-hero-precandidato .hero-precandidato-container {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 40px;
+        max-width: 720px;
+      }
+      .section-hero-precandidato .hero-precandidato-content { gap: 22px; }
+      .section-hero-precandidato .hero-precandidato-media img { max-width: 570px; }
+    }
+    @media (max-width: 479px) {
+      .section-hero-precandidato { padding: 36px 16px 48px; }
+      .section-hero-precandidato .hero-precandidato-content { gap: 18px; }
+      .section-hero-precandidato .hero-title { font-size: clamp(30px, 8vw, 40px); }
+      .section-hero-precandidato .div-8 { gap: 8px; }
+      .section-hero-precandidato .superpoder { min-height: 40px; padding: 7px 10px; gap: 5px; }
+      .section-hero-precandidato .superpoder .icon-wrapper,
+      .section-hero-precandidato .superpoder .icon-wrapper img { width: 18px; height: 18px; }
+      .section-hero-precandidato .ui-actions-botton { font-size: 13px; }
+    }
+  </style>
 </head>
 <body class="body-51">
   <div class="navbar-es">
