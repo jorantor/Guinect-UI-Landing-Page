@@ -1,0 +1,172 @@
+/* ==================================================
+   GUINECT CUSTOM PRODUCT CODE
+   Manual styles added after Webflow export.
+   Do not remove without checking product behavior.
+================================================== */
+
+/* Selected icon cards */
+.button.guinect-selected {
+  background-color: #3f5878 !important;
+  border-color: transparent !important;
+  box-shadow: 0 8px 18px rgba(31, 51, 77, 0.22) !important;
+  transform: scale(0.98);
+  opacity: 1 !important;
+}
+
+.button.guinect-selected .text-block-284 {
+  color: #ffffff !important;
+}
+
+.button.guinect-selected img {
+  filter: brightness(0) invert(1) opacity(0.9);
+}
+
+/* Selected semaforo options */
+.green_survey_option.guinect-selected {
+  background-color: #36a313 !important;
+  border-color: #36a313 !important;
+  color: #ffffff !important;
+}
+
+.yellow_survey_option.guinect-selected {
+  background-color: #e6bd00 !important;
+  border-color: #e6bd00 !important;
+  color: #ffffff !important;
+}
+
+.red_survey_option.guinect-selected {
+  background-color: #ed0b0b !important;
+  border-color: #ed0b0b !important;
+  color: #ffffff !important;
+}
+
+.neutral_survey_option.guinect-selected {
+  background-color: #3f5878 !important;
+  border-color: #3f5878 !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 10px rgba(63, 88, 120, 0.18) !important;
+}
+
+/* Comments */
+.guinect-comment,
+.survey_comments {
+  min-height: 72px !important;
+  max-height: 220px !important;
+  resize: vertical;
+  line-height: 1.45 !important;
+}
+
+/* Submit buttons */
+.guinect-submit-button {
+  background-color: #3f5878 !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 999px !important;
+  padding: 16px 36px !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(31, 51, 77, 0.18) !important;
+}
+
+.guinect-submit-button:hover {
+  background-color: #2f4563 !important;
+}
+
+/* Current selected survey tab */
+.survey_tab_link.w--current .main_survey_link {
+  background-color: #3f5878 !important;
+  border-radius: 999px !important;
+  box-shadow: 0 8px 18px rgba(31, 51, 77, 0.22) !important;
+}
+
+.survey_tab_link.w--current .main_survey_link img {
+  filter: brightness(0) invert(1) opacity(0.9);
+}
+
+.survey_tab_link.w--current .community_survey_button {
+  color: #1e2233 !important;
+  font-weight: 700 !important;
+}
+
+/* Completed survey tab */
+.survey_tab_link.guinect-survey-completed .main_survey_link {
+  background-color: #f58635 !important;
+  border-radius: 999px !important;
+  box-shadow: 0 8px 18px rgba(245, 134, 53, 0.22) !important;
+}
+
+.survey_tab_link.guinect-survey-completed .main_survey_link img {
+  filter: brightness(0) invert(1) opacity(0.95);
+}
+
+/* Completed survey currently open: keep blue */
+.survey_tab_link.guinect-survey-completed.w--current .main_survey_link {
+  background-color: #3f5878 !important;
+  box-shadow: 0 8px 18px rgba(31, 51, 77, 0.22) !important;
+}
+.guinect-confirmation-message {
+  display: none;
+  margin-top: 16px;
+  padding: 14px 18px;
+  border-radius: 8px;
+  background-color: #eaf2ff;
+  color: #3f5878;
+  font-weight: 700;
+  text-align: center;
+}
+
+.guinect-confirmation-message.is-visible {
+  display: block;
+}
+/* ==================================================
+   GUINECT COMMENT BOX
+================================================== */
+
+.comments_list {
+  width: 100% !important;
+  margin-top: 18px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  text-align: left !important;
+}
+
+.published_comment {
+  width: 100% !important;
+  max-width: 760px !important;
+  margin: 0 auto !important;
+  padding: 16px 18px !important;
+  background-color: #ffffff !important;
+  border: 1px solid #e5e9f3 !important;
+  border-radius: 14px !important;
+  box-shadow: 0 6px 16px rgba(31, 51, 77, 0.08) !important;
+  text-align: left !important;
+}
+
+.published_comment_author {
+  color: #3f5878 !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  margin-bottom: 6px !important;
+  text-align: left !important;
+}
+
+.published_comment_text {
+  color: #1e2233 !important;
+  font-size: 16px !important;
+  line-height: 1.45 !important;
+  margin-bottom: 8px !important;
+  text-align: left !important;
+}
+
+.published_comment_date {
+  color: #7b8794 !important;
+  font-size: 12px !important;
+  text-align: left !important;
+}
+
+.write_coment {
+  min-height: 72px !important;
+  resize: vertical !important;
+}
