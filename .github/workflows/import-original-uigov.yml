@@ -1,0 +1,38 @@
+name: Import original Webflow text assets (review branch)
+on:
+  push:
+    branches:
+      - review/uigov-home-funcionalidades-footer-2026-11-13
+    paths:
+      - 'scripts/uigov-transfer-part-*.b64'
+permissions:
+  contents: write
+jobs:
+  import:
+    if: github.repository == 'jorantor/Guinect-UI-Landing-Page' && github.ref == 'refs/heads/review/uigov-home-funcionalidades-footer-2026-11-13'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out review branch only
+        uses: actions/checkout@v4
+        with:
+          ref: review/uigov-home-funcionalidades-footer-2026-11-13
+          persist-credentials: true
+      - name: Expand original source text archive
+        shell: bash
+        run: |
+          test "$(find scripts -maxdepth 1 -name 'uigov-transfer-part-*.b64' | wc -l)" -eq 5
+          cat scripts/uigov-transfer-part-*.b64 | base64 --decode | tar -xz -C .
+      - name: Update other existing footer sections and cleanup old draft
+        run: python3 scripts/finalize-uigov-import.py
+      - name: Remove transport files
+        run: rm -f scripts/uigov-transfer-part-*.b64
+      - name: Commit changes to review branch only
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m 'Use original Webflow Home, Funcionalidades, CSS, JS and footer'
+            git push origin HEAD:review/uigov-home-funcionalidades-footer-2026-11-13
+          fi
